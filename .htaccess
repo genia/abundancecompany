@@ -1,0 +1,4 @@
+<IfModule mod_alias.c>
+	  # Redirect to a URL on a different host
+	  Redirect "/maggie_zadikov" "http://maggiezadikov.com"
+</IfModule>
