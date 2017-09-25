@@ -2,3 +2,13 @@
 	  # Redirect to a URL on a different host
 	  Redirect "/maggie_zadikov" "http://maggiezadikov.com"
 </IfModule>
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 188.143.232.0/24
+deny from 5.101.217.0/24
+deny from 46.119.124.0/24
+deny from 171.113.177.143
